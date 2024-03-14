@@ -1,0 +1,16 @@
+{
+    "name": "bosun/reverse",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bosun\\Reverse\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bosun18",
+            "email": "beliy-81@mail.ru"
+        }
+    ],
+    "require": {}
+}
