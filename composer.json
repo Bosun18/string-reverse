@@ -1,9 +1,12 @@
 {
-    "name": "bosun/reverse",
+    "name": "bosun/string-reverse",
+    "description": "TestCase",
+    "type": "project",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Bosun\\Reverse\\": "src/"
+            "App\\": "src/",
+            "App\\Tests\\": "tests/"
         }
     },
     "authors": [
@@ -12,5 +15,10 @@
             "email": "beliy-81@mail.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "ext-ctype": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    }
 }
