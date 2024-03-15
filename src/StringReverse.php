@@ -5,7 +5,7 @@ class StringReverse
 {
     public function getDelimiters($str): string
     {
-        if (preg_match('/[`\- ,]+/', $str, $matches)) {
+        if (preg_match('/[\'`\- ,]+/', $str, $matches)) {
             return $matches[0];
         }
         return '';

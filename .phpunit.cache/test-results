@@ -1,1 +1,1 @@
-{"version":1,"defects":[],"times":{"App\\Tests\\StringReverseTest::testSimpleWords":0.002,"App\\Tests\\StringReverseTest::testComplexWords":0}}
+{"version":1,"defects":[],"times":{"App\\Tests\\StringReverseTest::testSimpleWords":0.003,"App\\Tests\\StringReverseTest::testComplexWords":0}}
