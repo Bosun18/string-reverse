@@ -18,7 +18,7 @@ class StringReverseTest extends TestCase {
         $test = new StringReverse();
         $this->assertEquals('tac,', $test->getReverse('cat,'));
         $this->assertEquals('nac`t', $test->getReverse('can`t'));
-        $this->assertEquals( "si 'dloc' won", $test->getReverse("is 'cold' now"));
-        $this->assertEquals( 'driht-trap', $test->getReverse( 'third-part'));
+        $this->assertEquals("si 'dloc' won", $test->getReverse("is 'cold' now"));
+        $this->assertEquals('driht-trap', $test->getReverse('third-part'));
     }
 }
